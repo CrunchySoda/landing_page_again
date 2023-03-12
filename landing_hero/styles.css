@@ -1,0 +1,242 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(201, 188, 188, 0.481);
+    font-family: monospace;
+    margin-left: 32px;
+    margin-right: 32px;
+
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    color: #847d3f;  
+    border-radius: 10px;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #847d3f;
+    font-weight: 500;
+    
+}
+
+a:hover {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.logo {
+    height: 31.5px;
+    width: auto;
+}
+
+.r-header {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.l-header {
+    display: flex;
+}
+
+.hero {
+    background-color: #1f2937;
+    border-radius: 10px;
+    display: flex;
+    padding: 8px 8px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-basis: 50%;
+    
+}
+
+.hero-small {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+}
+
+
+.hero-big {
+    text-align: center;
+    color: #847d3f;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.oak {
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.cards {
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #847d3f;
+    font-size: 32px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: baseline;
+    color: #e5e7eb;
+    font-size: 14px;
+    font-weight: 100;
+    flex-wrap: wrap;
+
+
+
+}
+
+.header,
+.hero,
+.cards,
+.quote-container,
+.cta-container, 
+.footer {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.gif {
+    height: 150px;
+    width: auto;
+}
+
+.dex {
+    width: 225px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    border-color: #1f2937;
+    border-radius: 10px;
+    border-style: double;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    color: #847d3f;
+}
+
+.signature {
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.mon {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.cta-module {
+    display: flex;
+    background-color: #1f2937;
+    border-radius: 10px;
+    border-style: double;
+    border-color: #847d3f;
+    padding: 5px;
+    justify-content: space-around;
+    flex-basis: 60%;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #847d3f;
+    align-items: center ;
+}
+
+.cta-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fight-catch,
+.run-befriend {
+    display: flex;
+    flex-direction: column;
+    width: 80px
+    
+}
+
+.hero-button {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    border-radius: 10px;
+    border-color: #847d3f;
+    border-style: double;
+    font-weight: 900;
+    width: 50%;
+    align-self: center;    
+}
+
+.cta {
+    background-color: #e5e7eb;
+    border-radius: 5px;
+    border-color: #847d3f;
+    font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #1f2937;
+    color: #847d3f;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
